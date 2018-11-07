@@ -1,18 +1,13 @@
-#include <stdio.h>
-int main() {
-  int i;
+#! ruby -ku
 
-  for (i = 1; i <= 100; i++) {
-    if (i % 3 == 0 && i % 5 == 0){
-      printf("FizzBuzz\n");
-    } else if (i % 3 == 0) {
-      printf("Fizz\n");
-    } else if (i % 5 == 0) {
-      printf("Buzz\n");
-    } else {
-      printf("%d\n", i);
-    }
-  }
-
-  return 0;
-}
+for num in 1..100 do
+    if num % 3 == 0 || num % 5 == 0 then
+      print("FizzBuzz\n")
+    elsif num % 3 == 0 then
+      print("Fizz\n")
+    elsif i % 5 == 0 then
+      print("Buzz\n")
+    else 
+      print(num, "\n")
+    end
+end
