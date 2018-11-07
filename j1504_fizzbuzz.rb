@@ -1,4 +1,5 @@
-#include <stdio.h>
+#! ruby -ku
+
 int main() {
   int i;
 
