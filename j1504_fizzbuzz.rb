@@ -8,7 +8,7 @@ for num in 1..100 do
       print("Fizz\n")
     elsif num % 5 == 0 then
       print("Buzz\n")
-    elsif i % 7 == 0 then
+    elsif num % 7 == 0 then
       print("git\n")
     else 
       print(num, "\n")
