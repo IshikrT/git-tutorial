@@ -2,11 +2,11 @@
 #! ruby -ku
 
 for num in 1..100 do
-    if num % 3 == 0 || num % 5 == 0 then
+    if num%3 == 0 && num%5 == 0 then
       print("FizzBuzz\n")
     elsif num % 3 == 0 then
       print("Fizz\n")
-    elsif i % 5 == 0 then
+    elsif num % 5 == 0 then
       print("Buzz\n")
     else 
       print(num, "\n")
