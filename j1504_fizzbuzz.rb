@@ -1,3 +1,4 @@
+#! /usr/bin/env ruby
 #! ruby -ku
 
 for num in 1..100 do
